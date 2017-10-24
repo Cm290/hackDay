@@ -1,0 +1,28 @@
+{
+  "name": "editorialDataBackend",
+  "version": "1.0.0",
+  "description": "An Api for Editorial creation of an Alexa Skill",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.4.1",
+    "body-parser": "^1.17.1",
+    "boom": "^4.3.1",
+    "cors": "^2.8.4",
+    "express": "^4.15.2",
+    "joi": "^10.4.1",
+    "knex": "^0.12.9",
+    "moment": "^2.18.1",
+    "node-redshift": "^0.1.5",
+    "on-headers": "^1.0.1",
+    "pg": "^6.1.5",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "@ibl/documentation-generator": "^2.0.0",
+    "mocha": "^3.2.0",
+    "sinon": "^2.1.0",
+    "supertest": "^3.0.0"
+  }
+}
